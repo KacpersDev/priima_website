@@ -1,0 +1,35 @@
+import Image from "next/image";
+
+import Client1 from "@/app/assets/images/client1.png";
+import Client2 from "@/app/assets/images/client2.png";
+
+const Clients = () => {
+  return (
+    <div>
+      <p className="text-center font-grotesk_500 text-[50px]">
+        Our <span className="text-[#F7AB12]">Biggest</span> Clients
+      </p>
+      <div className="flex justify-center">
+        <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />
+        <div className="w-[16px] h-[16px] bg-[#F7AB12] rounded-full m-[6px]" />
+        <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />
+        <div className="w-[16px] h-[16px] bg-[#F7AB12] rounded-full m-[6px]" />
+        <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />
+      </div>
+      <div className="flex justify-center space-x-[25px] mt-[50px]">
+        <Image
+          className="m-[10px] w-[200px] h-[80px]"
+          src={Client1}
+          alt="client1"
+        />
+        <Image
+          className="m-[10px] w-[300px] h-[80px]"
+          src={Client2}
+          alt="client2"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Clients;
