@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 import Logo from "@/app/assets/images/logo.jpeg";
@@ -10,14 +11,27 @@ const Header = () => {
         <Image width={150} height={150} src={Logo} alt="logo" />
       </div>
       <div className="font-grotesk mt-[40px] max-[680px]:hidden">
-        <button className="text-[#F8AB0F] m-[20px]">Home</button>
-        <button className="text-[#F8AB0F] m-[20px]">Services</button>
+        <button
+          className="text-[#F8AB0F] m-[20px]"
+          onClick={() => (location.href = "/")}
+        >
+          Home
+        </button>
+        <button
+          className="text-[#F8AB0F] m-[20px]"
+          onClick={() => (location.href = "#services")}
+        >
+          Services
+        </button>
         <button className="text-[#F8AB0F] m-[20px]">About</button>
-        <button className="text-white bg-[#F7AB12] m-[20px] w-[100px] p-[1px] rounded">
+        <button
+          className="text-white bg-[#F7AB12] m-[20px] w-[100px] p-[1px] rounded"
+          onClick={() => (location.href = "#contact")}
+        >
           Contact
         </button>
       </div>
-      <div className="min-[680px]:hidden">
+      <div className="hidden">
         <Image
           width={32}
           height={32}

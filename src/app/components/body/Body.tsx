@@ -53,6 +53,7 @@ const Body = () => {
           <div
             className="bg-[url('./assets/images/1.png')] w-[425px] h-[600px] bg-no-repeat m-[20px] max-[500px]:bg-contain
             max-[500px]:w-[310px] max-[500px]:ml-auto max-[500px]:mr-auto"
+            id="services"
           >
             <div
               className="text-white bg-black w-[175px] h-[35px] rounded-xl pt-[2px] ml-[125px] text-center mt-[50px] font-grotesk_500

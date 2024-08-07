@@ -5,7 +5,7 @@ import Logo from "@/app/assets/images/logo.jpeg";
 const Footer = () => {
   return (
     <div>
-      <div className="flex justify-center space-x-[500px] mt-[150px] max-[1150px]:grid">
+      <div className="flex justify-center min-[1150px]:space-x-[500px] mt-[150px] max-[1150px]:grid">
         <div className="font-grotesk text-center grid">
           <Image
             className="max-[1150px]:ml-auto max-[1150px]:mr-auto"
@@ -21,7 +21,7 @@ const Footer = () => {
           <p className="mt-[20px]">info@company.com</p>
         </div>
         <div>
-          <p className="w-[500px] font-grotesk mt-[85px] text-center ml-auto">
+          <p className="w-[500px] font-grotesk mt-[85px] text-center ml-auto max-[600px]:w-[300px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             porta massa at est convallis, in accumsan dolor fermentum.
             Suspendisse nibh mauris, dapibus eget vulputate id, consectetur non

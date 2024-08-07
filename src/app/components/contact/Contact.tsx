@@ -30,6 +30,7 @@ const Contact = () => {
           className="w-[400px] h-[60px] bg-[#122A37] rounded-2xl pl-[25px] text-white max-[500px]:w-[300px]"
           placeholder="Full Name"
           onChange={(event) => setName(event.target.value)}
+          id="contact"
         />
         <input
           type="email"
