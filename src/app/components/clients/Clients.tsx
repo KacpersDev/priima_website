@@ -6,7 +6,7 @@ import Client2 from "@/app/assets/images/client2.png";
 const Clients = () => {
   return (
     <div>
-      <p className="text-center font-grotesk_500 text-[50px]">
+      <p className="text-center font-grotesk_500 text-[50px] max-[500px]:text-[30px] max-[500px]:mt-[50px]">
         Our <span className="text-[#F7AB12]">Biggest</span> Clients
       </p>
       <div className="flex justify-center">
