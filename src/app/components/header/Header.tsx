@@ -12,20 +12,22 @@ const Header = () => {
       </div>
       <div className="font-grotesk mt-[40px] max-[680px]:hidden">
         <button
-          className="text-[#F8AB0F] m-[20px]"
+          className="text-[#F8AB0F] m-[20px] hover:opacity-60"
           onClick={() => (location.href = "/")}
         >
           Home
         </button>
         <button
-          className="text-[#F8AB0F] m-[20px]"
+          className="text-[#F8AB0F] m-[20px] hover:opacity-60"
           onClick={() => (location.href = "#services")}
         >
           Services
         </button>
-        <button className="text-[#F8AB0F] m-[20px]">About</button>
+        <button className="text-[#F8AB0F] m-[20px] hover:opacity-60">
+          About
+        </button>
         <button
-          className="text-white bg-[#F7AB12] m-[20px] w-[100px] p-[1px] rounded"
+          className="text-white bg-[#F7AB12] m-[20px] w-[100px] p-[1px] rounded hover:opacity-60"
           onClick={() => (location.href = "#contact")}
         >
           Contact

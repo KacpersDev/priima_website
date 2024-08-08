@@ -16,7 +16,7 @@ const Clients = () => {
         <div className="w-[16px] h-[16px] bg-[#F7AB12] rounded-full m-[6px]" />
         <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />
       </div>
-      <div className="flex justify-center space-x-[25px] mt-[50px]">
+      <div className="flex justify-center min-[1000px]:space-x-[25px] mt-[50px] max-[1000px]:grid">
         <Image
           className="m-[10px] w-[200px] h-[80px]"
           src={Client1}
