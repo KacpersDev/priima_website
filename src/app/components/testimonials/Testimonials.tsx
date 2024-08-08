@@ -28,24 +28,18 @@ const Testimonials = () => {
         </div>
         <div className="flex justify-center mt-[75px] max-[1150px]:grid">
           <Testiomonial
-            name={"Kacper"}
-            review={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit sagittis tortor at porta. Suspendisse potenti. Praesent dui tortor, tempor quis ligula eu, tristique tempor dolor. In lacinia velit eget condimentum ultricies. "
-            }
+            name={"Ami"}
+            review={"Jätkät hoiti hommansa."}
             starAmount={5}
           />
           <Testiomonial
-            name={"Kacper"}
-            review={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit sagittis tortor at porta. Suspendisse potenti. Praesent dui tortor, tempor quis ligula eu, tristique tempor dolor. In lacinia velit eget condimentum ultricies. "
-            }
+            name={"Jasmin"}
+            review={"Kiitoksia kuljetus hoitui loistavasti!. "}
             starAmount={5}
           />
           <Testiomonial
-            name={"Kacper"}
-            review={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit sagittis tortor at porta. Suspendisse potenti. Praesent dui tortor, tempor quis ligula eu, tristique tempor dolor. In lacinia velit eget condimentum ultricies. "
-            }
+            name={"Essi"}
+            review={"Suositus, nopea je hyvä palvelu. "}
             starAmount={5}
           />
         </div>
@@ -71,7 +65,7 @@ const Testiomonial: React.FC<TestimonialFace> = ({
       <p className="text-white font-grotesk_500 text-[35px] text-center w-[350px]">
         {name}
       </p>
-      <p className="text-white text-[15px] font-grotesk w-[350px] text-center">
+      <p className="text-white text-[20px] font-grotesk w-[350px] text-center max-[500px]:w-[300px] max-[500px]:text-center max-[500px]:ml-auto max-[500px]:mr-auto">
         {review}
       </p>
       <div className="flex justify-center mt-[20px]">
