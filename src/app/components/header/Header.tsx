@@ -15,22 +15,25 @@ const Header = () => {
           className="text-[#F8AB0F] m-[20px] hover:opacity-60"
           onClick={() => (location.href = "/")}
         >
-          Home
+          Etusivu
         </button>
         <button
           className="text-[#F8AB0F] m-[20px] hover:opacity-60"
           onClick={() => (location.href = "#services")}
         >
-          Services
-        </button>
-        <button className="text-[#F8AB0F] m-[20px] hover:opacity-60">
-          About
+          Palvelut
         </button>
         <button
-          className="text-white bg-[#F7AB12] m-[20px] w-[100px] p-[1px] rounded hover:opacity-60"
+          className="text-[#F8AB0F] m-[20px] hover:opacity-60"
+          onClick={() => (location.href = "#about")}
+        >
+          Meistä
+        </button>
+        <button
+          className="text-white bg-[#F7AB12] m-[20px] w-[110px] p-[1px] rounded hover:opacity-60"
           onClick={() => (location.href = "#contact")}
         >
-          Contact
+          Ota yhteyttä
         </button>
       </div>
       <div className="hidden">

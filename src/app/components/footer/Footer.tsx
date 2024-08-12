@@ -21,13 +21,12 @@ const Footer = () => {
           <p className="mt-[20px]">info@company.com</p>
         </div>
         <div>
-          <p className="w-[500px] font-grotesk mt-[85px] text-center ml-auto max-[600px]:w-[300px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            porta massa at est convallis, in accumsan dolor fermentum.
-            Suspendisse nibh mauris, dapibus eget vulputate id, consectetur non
-            nisl. Aliquam sed tempor nibh. Donec ac ultrices arcu, ac gravida
-            lacus. Fusce eget ipsum est. Sed aliquet sem et tincidunt semper.
-            Nullam enim ipsum, rutrum at est vel, pulvinar feugiat felis.
+          <p className="w-[500px] font-grotesk mt-[100px] text-center ml-auto max-[600px]:w-[300px]">
+            Koe vaivattomat ja edulliset kuljetuspalvelut, jotka on räätälöity
+            tarpeidesi mukaan. Sitoutumisemme luotettavuuteen ja tehokkuuteen
+            varmistaa, että muutto- ja kierrätystehtäväsi hoidetaan
+            huolellisesti ja ammattitaidolla, tarjoten parhaan mahdollisen
+            kokemuksen.
           </p>
         </div>
       </div>

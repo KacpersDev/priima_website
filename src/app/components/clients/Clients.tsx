@@ -7,7 +7,7 @@ const Clients = () => {
   return (
     <div>
       <p className="text-center font-grotesk_500 text-[50px] max-[500px]:text-[30px] max-[500px]:mt-[50px]">
-        Our <span className="text-[#F7AB12]">Biggest</span> Clients
+        <span className="text-[#F7AB12]">Suurimmat</span> asiakkaat
       </p>
       <div className="flex justify-center">
         <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />

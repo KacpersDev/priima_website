@@ -17,7 +17,7 @@ const Testimonials = () => {
       <Image className="w-[100%]" src={WavesTop} alt="Waves Top" />
       <div className="bg-[#F7AB12]">
         <p className="text-center text-[50px] font-grotesk_500 text-[#122A37]">
-          Testimonials
+          Asiakaspalautteet
         </p>
         <div className="flex justify-center">
           <div className="w-[16px] h-[16px] bg-[#122A37] rounded-full m-[6px]" />
@@ -47,7 +47,7 @@ const Testimonials = () => {
           className="ml-auto mr-auto flex justify-center mt-[25px] bg-black text-white p-[5px] font-grotesk_500 w-[120px] rounded-xl hover:opacity-75"
           onClick={() => (location.href = "https://google.com")}
         >
-          Read More
+          Lue lisää
         </button>
       </div>
       <Image className="w-[100%]" src={WavesBottom} alt="Waves Top" />
